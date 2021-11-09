@@ -565,7 +565,6 @@ svg.tea {
 }
 .work__content {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
 }
 .work__item {
@@ -580,7 +579,7 @@ svg.tea {
 .work__item:nth-child(2) .work__body {
   background-color: rgba(51, 70, 88, 0.9);
 }
-.work__item:nth-child(3) .work__body {
+.work__item:nth-child(3) .work__body, .work__item:nth-child(7) .work__body {
   background-color: rgba(0, 0, 0, 0.9);
 }
 .work__item:nth-child(4) .work__body {
@@ -1043,6 +1042,9 @@ svg.tea {
   }
   .work__item:nth-child(6) {
     transition: opacity 1.4s ease 0.8s;
+  }
+  .work__item:nth-child(7) {
+    transition: opacity 1.4s ease 0.9s;
   }
   .work__item._active {
     opacity: 1;

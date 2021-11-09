@@ -542,7 +542,6 @@ svg.tea{
 	padding: 100px 0px 50px 0px;
 	&__content {
 		display: flex;
-		justify-content: center;
 		flex-wrap: wrap;
 	}
 	&__item{
@@ -560,7 +559,7 @@ svg.tea{
 				background-color: rgba(51, 70, 88, 0.9);
 			}
 		}
-		&:nth-child(3){
+		&:nth-child(3), &:nth-child(7){
 			.work__body{
 				background-color: rgba(0, 0, 0, 0.9);
 			}
@@ -1044,6 +1043,9 @@ svg.tea{
 		}
 		&:nth-child(6){
 			transition: opacity 1.4s ease 0.8s;
+		}
+		&:nth-child(7){
+			transition: opacity 1.4s ease 0.9s;
 		}
 		&._active{
 			opacity: 1;
