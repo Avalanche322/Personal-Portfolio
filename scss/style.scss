@@ -228,37 +228,6 @@ svg.tea{
 		height: 100%;
 		object-fit: cover;
 	}
-	@media (max-width:616px) {
-		&__title {
-			font-size: 50px;
-			line-height: 70px;
-		}
-		&__text, &__subtext,&__btn {
-			font-size: 16px;
-		}
-	}
-}
-/*======================Header======================*/
-.header {
-	background-color: $dark;
-	z-index: 10;
-	position: relative;
-	&__menu {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		padding: 20px 0px;
-	}
-	&__burger {
-		display: none;
-	}
-	&__logo {
-		z-index: 5;
-		flex: 0 1 70px;
-		img{
-			width: 100%;
-		}
-	}
 	@media (min-width: 768px) {
 		&__btn{
 			transform: translate(-100%, 0);
@@ -294,6 +263,37 @@ svg.tea{
 			&._active{
 				opacity: 1;
 			}
+		}
+	}
+	@media (max-width:616px) {
+		&__title {
+			font-size: 50px;
+			line-height: 70px;
+		}
+		&__text, &__subtext,&__btn {
+			font-size: 16px;
+		}
+	}
+}
+/*======================Header======================*/
+.header {
+	background-color: $dark;
+	z-index: 10;
+	position: relative;
+	&__menu {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px 0px;
+	}
+	&__burger {
+		display: none;
+	}
+	&__logo {
+		z-index: 5;
+		flex: 0 1 70px;
+		img{
+			width: 100%;
 		}
 	}
 	@media (max-width: 768px) {
