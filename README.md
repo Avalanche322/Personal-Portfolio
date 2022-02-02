@@ -1,7 +1,7 @@
 # Perconal Portfolio
 An website use GitPage for hosting, SCSS, HTML and JS.
 ## Project Status
-This project is currently developing. Users can see information about me, my work, skills with great animation and contact me.
+This project is currently done. Users can see information about me, my work, skills with great animation and contact me.
 ## Project Screen Shots
 ![prevue](src\img\markdown\prevue.gif)
 
