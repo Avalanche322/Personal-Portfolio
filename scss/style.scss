@@ -673,7 +673,7 @@ svg.tea{
 				}
 			}
 		}
-		&:nth-child(4){
+		&:nth-child(4), &:nth-child(9){
 			.skills__bar-right{
 				.skills__value{
 					&._active{
@@ -693,7 +693,7 @@ svg.tea{
 				}	
 			}
 		}
-		&:nth-child(8){
+		&:nth-child(8), &:nth-child(10){
 			.skills__bar-right{
 				.skills__value{
 					&._active{
@@ -858,6 +858,14 @@ svg.tea{
 				width: 80%;
 			}
 		}
+		&:nth-child(8){
+			.work__body{
+				background-color: rgba(82, 81, 190, 0.9);
+			}
+			.work__template-img {
+				width: 80%;
+			}
+		}
 	}
 	&__img {
 		width: 350px;
@@ -970,6 +978,9 @@ svg.tea{
 			}
 			&:nth-child(7){
 				transition: opacity 1.4s ease 0.9s;
+			}
+			&:nth-child(8){
+				transition: opacity 1.4s ease 1s;
 			}
 			&._active{
 				opacity: 1;

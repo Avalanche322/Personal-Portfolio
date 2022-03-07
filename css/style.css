@@ -712,7 +712,7 @@ svg.tea {
   animation: right80 0.5s linear both;
   animation-delay: 0.5s;
 }
-.skills__item:nth-child(4) .skills__bar-right .skills__value._active {
+.skills__item:nth-child(4) .skills__bar-right .skills__value._active, .skills__item:nth-child(9) .skills__bar-right .skills__value._active {
   animation: right75 0.5s linear both;
   animation-delay: 0.5s;
 }
@@ -720,7 +720,7 @@ svg.tea {
   animation: right70 0.5s linear both;
   animation-delay: 0.5s;
 }
-.skills__item:nth-child(8) .skills__bar-right .skills__value._active {
+.skills__item:nth-child(8) .skills__bar-right .skills__value._active, .skills__item:nth-child(10) .skills__bar-right .skills__value._active {
   animation: right60 0.5s linear both;
   animation-delay: 0.5s;
 }
@@ -865,6 +865,12 @@ svg.tea {
 .work__item:nth-child(6) .work__template-img {
   width: 80%;
 }
+.work__item:nth-child(8) .work__body {
+  background-color: rgba(82, 81, 190, 0.9);
+}
+.work__item:nth-child(8) .work__template-img {
+  width: 80%;
+}
 .work__img {
   width: 350px;
   height: 250px;
@@ -977,6 +983,9 @@ svg.tea {
   }
   .work__item:nth-child(7) {
     transition: opacity 1.4s ease 0.9s;
+  }
+  .work__item:nth-child(8) {
+    transition: opacity 1.4s ease 1s;
   }
   .work__item._active {
     opacity: 1;
