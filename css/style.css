@@ -708,19 +708,19 @@ svg.tea {
   animation: right90 0.5s linear both;
   animation-delay: 0.5s;
 }
-.skills__item:nth-child(3) .skills__bar-right .skills__value._active, .skills__item:nth-child(5) .skills__bar-right .skills__value._active {
+.skills__item:nth-child(5) .skills__bar-right .skills__value._active, .skills__item:nth-child(3) .skills__bar-right .skills__value._active {
   animation: right80 0.5s linear both;
   animation-delay: 0.5s;
 }
-.skills__item:nth-child(4) .skills__bar-right .skills__value._active, .skills__item:nth-child(9) .skills__bar-right .skills__value._active {
+.skills__item:nth-child(8) .skills__bar-right .skills__value._active {
   animation: right75 0.5s linear both;
   animation-delay: 0.5s;
 }
-.skills__item:nth-child(6) .skills__bar-right .skills__value._active, .skills__item:nth-child(7) .skills__bar-right .skills__value._active {
+.skills__item:nth-child(6) .skills__bar-right .skills__value._active, .skills__item:nth-child(10) .skills__bar-right .skills__value._active {
   animation: right70 0.5s linear both;
   animation-delay: 0.5s;
 }
-.skills__item:nth-child(8) .skills__bar-right .skills__value._active, .skills__item:nth-child(10) .skills__bar-right .skills__value._active {
+.skills__item:nth-child(7) .skills__bar-right .skills__value._active, .skills__item:nth-child(9) .skills__bar-right .skills__value._active, .skills__item:nth-child(10) .skills__bar-right .skills__value._active, .skills__item:nth-child(4) .skills__bar-right .skills__value._active {
   animation: right60 0.5s linear both;
   animation-delay: 0.5s;
 }
@@ -795,7 +795,7 @@ svg.tea {
 }
 @keyframes right90 {
   100% {
-    transform: rotate(150deg);
+    transform: rotate(160deg);
   }
 }
 @keyframes right80 {
