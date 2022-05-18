@@ -871,6 +871,12 @@ svg.tea {
 .work__item:nth-child(8) .work__template-img {
   width: 80%;
 }
+.work__item:nth-child(9) .work__body {
+  background-color: rgba(253, 126, 20, 0.9);
+}
+.work__item:nth-child(9) .work__template-img {
+  width: 80%;
+}
 .work__img {
   width: 350px;
   height: 250px;

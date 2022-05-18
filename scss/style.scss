@@ -866,6 +866,15 @@ svg.tea{
 				width: 80%;
 			}
 		}
+		&:nth-child(9) {
+			.work__body {
+				background-color: rgba(253, 126, 20, 0.9);
+			}
+
+			.work__template-img {
+				width: 80%;
+			}
+		}
 	}
 	&__img {
 		width: 350px;
